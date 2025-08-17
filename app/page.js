@@ -287,7 +287,7 @@ export default function SharedTodoApp() {
                       />
                       <button
                         type="submit"
-                        className="px-4 py-2 rounded-xl border border-slate-300 hover:bg-slate-50"
+                        className="px-4 py-2 rounded-xl bg-gray-100 border  text-black border-slate-300 hover:bg-slate-50"
                       >
                         追加
                       </button>
@@ -325,7 +325,8 @@ export default function SharedTodoApp() {
                           </span>
                           <button
                             onClick={() => removeTask(t)}
-                            className="opacity-0 group-hover:opacity-100 transition text-slate-400 hover:text-slate-700"
+                            //className="opacity-0 group-hover:opacity-100 transition text-slate-400 hover:text-slate-700"
+                            className="group-hover:opacity-100 transition text-slate-400 hover:text-slate-700"
                             title="削除"
                           >
                             ×
